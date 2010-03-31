@@ -1,4 +1,5 @@
 bin/intermediary.pl
+Changes
 examples/UpperCaser.pm
 lib/IO/Multiplex/Intermediary.pm
 lib/IO/Multiplex/Intermediary/Client.pm
