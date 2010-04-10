@@ -1,5 +1,5 @@
 ---
-abstract: ~
+abstract: 'multiplexing with fault tolerance'
 author:
   - 'Jason May <jason.a.may@gmail.com>'
 build_requires:
@@ -22,15 +22,21 @@ no_index:
 requires:
   Data::UUID: 0
   IO::Select: 0
+  IO::Socket: 0
   IO::Socket::INET: 0
   JSON: 0
   List::MoreUtils: 0
   List::Util: 0
   Moose: 0
+  MooseX::POE: 0
+  POE::Component::Server::TCP: 0
+  POE::Filter::Stream: 0
+  POE::Wheel::ReadWrite: 0
+  POE::Wheel::SocketFactory: 0
   Scalar::Util: 0
   Time::HiRes: 0
   namespace::autoclean: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
