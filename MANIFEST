@@ -1,7 +1,6 @@
 bin/intermediary.pl
 Changes
 examples/UpperCaser.pm
-IO-Multiplex-Intermediary-0.02.tar.gz
 lib/IO/Multiplex/Intermediary.pm
 lib/IO/Multiplex/Intermediary/Client.pm
 MANIFEST			This list of files
