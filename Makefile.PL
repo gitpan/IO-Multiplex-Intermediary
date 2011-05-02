@@ -6,7 +6,7 @@ all_from       'lib/IO/Multiplex/Intermediary.pm';
 license        'perl';
 
 requires 'Moose';
-requires 'MooseX::POE';
+requires 'MooseX::POE' => '0.213';
 requires 'namespace::autoclean';
 requires 'POE::Wheel::SocketFactory';
 requires 'POE::Component::Server::TCP';

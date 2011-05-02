@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
 package IO::Multiplex::Intermediary;
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 use MooseX::POE;
-use namespace::autoclean;
 
 use JSON;
 use List::MoreUtils qw(any);

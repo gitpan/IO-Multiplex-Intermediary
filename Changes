@@ -1,3 +1,6 @@
+0.06
+    - inc/* is included in MANIFEST
+
 0.05
     - MANIFEST.SKIP is fixed so Makefile.PL gets shipped
 
